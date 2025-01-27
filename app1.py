@@ -9,7 +9,7 @@ import streamlit as st
 import joblib
 
 vectorizer = joblib.load("vectorization.jb")
-model = joblib.load('GBC.jb')
+model = joblib.load('./GBC.jb')
 
 st.title("Real or Fake news Analysis")
 st.write("Enter a news Article below")
