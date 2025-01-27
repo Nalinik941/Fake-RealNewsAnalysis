@@ -8,8 +8,8 @@ Created on Sat Jan 25 12:17:36 2025
 import streamlit as st
 import joblib
 
-vectorizer = joblib.load("C:/Users/Dell/ml_stramlit_app/vectorization.jb")
-model = joblib.load('C:/Users/Dell/ml_stramlit_app/DTC.jb')
+vectorizer = joblib.load("vectorization.jb")
+model = joblib.load('GBC.jb')
 
 st.title("Real or Fake news Analysis")
 st.write("Enter a news Article below")
